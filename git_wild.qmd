@@ -33,6 +33,10 @@ diamonds %>%
   ggplot(aes(x = carat, y = price)) +
   geom_point()
 
+#make a table of the number of diamonds with each cut
+diamonds %>%
+  group_by(cut) %>%
+  summarize(n = n())
 
 ```
 
