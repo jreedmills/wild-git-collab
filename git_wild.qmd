@@ -31,7 +31,6 @@ diamonds %>%
   ggplot(aes(x = carat, y = price)) +
   geom_point()
 
-
 ```
 
 ## STEP 7: Uh oh, merge conflicts!
